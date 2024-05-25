@@ -1,0 +1,10 @@
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\bin\Debug\test_Num_Pseudo.exe.config
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\bin\Debug\test_Num_Pseudo.exe
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\bin\Debug\test_Num_Pseudo.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\bin\Debug\Numeros_Pseudo.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\bin\Debug\Numeros_Pseudo.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\obj\Debug\test_Num_Pseudo.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\obj\Debug\test_Num_Pseudo.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\obj\Debug\test_Num_Pseudo.csproj.CopyComplete
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\obj\Debug\test_Num_Pseudo.exe
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_Num_Pseudo\test_Num_Pseudo\obj\Debug\test_Num_Pseudo.pdb

@@ -1,0 +1,6 @@
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Numeros_Pseudo\Numeros_Pseudo\bin\Debug\Numeros_Pseudo.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Numeros_Pseudo\Numeros_Pseudo\bin\Debug\Numeros_Pseudo.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Numeros_Pseudo\Numeros_Pseudo\obj\Debug\Numeros_Pseudo.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Numeros_Pseudo\Numeros_Pseudo\obj\Debug\Numeros_Pseudo.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Numeros_Pseudo\Numeros_Pseudo\obj\Debug\Numeros_Pseudo.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Numeros_Pseudo\Numeros_Pseudo\obj\Debug\Numeros_Pseudo.pdb
