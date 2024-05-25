@@ -1,0 +1,12 @@
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\bin\Debug\test_pruebas_estadisticas.exe.config
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\bin\Debug\test_pruebas_estadisticas.exe
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\bin\Debug\test_pruebas_estadisticas.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\bin\Debug\Numeros_Pseudo.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\bin\Debug\Pruebas_Estadisticas.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\bin\Debug\Numeros_Pseudo.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\bin\Debug\Pruebas_Estadisticas.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\obj\Debug\test_pruebas_estadisticas.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\obj\Debug\test_pruebas_estadisticas.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\obj\Debug\test_pruebas_estadisticas.csproj.CopyComplete
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\obj\Debug\test_pruebas_estadisticas.exe
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\test_pruebas_estadisticas\test_pruebas_estadisticas\obj\Debug\test_pruebas_estadisticas.pdb

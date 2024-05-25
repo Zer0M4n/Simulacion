@@ -1,0 +1,6 @@
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\bin\Debug\Pruebas_Estadisticas.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\bin\Debug\Pruebas_Estadisticas.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\obj\Debug\Pruebas_Estadisticas.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\obj\Debug\Pruebas_Estadisticas.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\obj\Debug\Pruebas_Estadisticas.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\obj\Debug\Pruebas_Estadisticas.pdb
