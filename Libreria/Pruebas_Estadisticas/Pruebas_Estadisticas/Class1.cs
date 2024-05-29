@@ -26,7 +26,7 @@ namespace Pruebas_Estadisticas
         private const float Xa = 7.81f;
         private List<float> Lista_frecuencia = new List<float>();
 
-        public bool Lista_Frecuencias(List<float> Numeros_Aleatorios)//Comprueba si esta unidormente ordenadas
+        public bool Lista_Frecuencias(List<float> Numeros_Aleatorios, float Xa)//Comprueba si esta unidormente ordenadas
         {
             FE = Numeros_Aleatorios.Count / 4;
             foreach (float Number in Numeros_Aleatorios)

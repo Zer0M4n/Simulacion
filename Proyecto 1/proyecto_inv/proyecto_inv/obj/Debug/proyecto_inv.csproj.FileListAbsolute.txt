@@ -1,0 +1,17 @@
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\proyecto_inv.exe.config
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\proyecto_inv.exe
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\proyecto_inv.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.Properties.Resources.resources
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.csproj.GenerateResource.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.exe
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.Menu.resources
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\Numeros_Pseudo.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\Pruebas_Estadisticas.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\Numeros_Pseudo.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\Pruebas_Estadisticas.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.Form_Generador_Num.resources
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.csproj.CopyComplete
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.Form_Prueba_Promedio.resources

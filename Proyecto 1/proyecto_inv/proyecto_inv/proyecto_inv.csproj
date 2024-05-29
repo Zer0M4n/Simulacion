@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38A6B33B-6E93-41E0-8602-B3BE7129A62A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>proyecto_inv</RootNamespace>
+    <AssemblyName>proyecto_inv</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Numeros_Pseudo">
+      <HintPath>..\..\..\Libreria\Numeros_Pseudo\Numeros_Pseudo\bin\Debug\Numeros_Pseudo.dll</HintPath>
+    </Reference>
+    <Reference Include="Pruebas_Estadisticas">
+      <HintPath>..\..\..\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\bin\Debug\Pruebas_Estadisticas.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_Generador_Num.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Generador_Num.Designer.cs">
+      <DependentUpon>Form_Generador_Num.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Prueba_Promedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Prueba_Promedio.Designer.cs">
+      <DependentUpon>Form_Prueba_Promedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Generador_Num.resx">
+      <DependentUpon>Form_Generador_Num.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Prueba_Promedio.resx">
+      <DependentUpon>Form_Prueba_Promedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgButton\icons8-promo-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgButton\img_Button_Barra\icons8-macos-minimizar-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgButton\img_Button_Barra\icons8-eliminar-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgButton\img_Button_Barra\icons8-cerrar-ventana-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgButton\img_Button_Barra\icons8-restaurar-ventana-24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
