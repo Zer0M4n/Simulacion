@@ -49,6 +49,8 @@
             this.btn_salida = new System.Windows.Forms.Button();
             this.menuTrantion = new System.Windows.Forms.Timer(this.components);
             this.sidebordTransition = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.sidebar.SuspendLayout();
@@ -74,7 +76,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -276,6 +280,26 @@
             this.sidebordTransition.Interval = 10;
             this.sidebordTransition.Tick += new System.EventHandler(this.sidebordTransition_Tick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1096, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(48, 38);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Cerrar_Ventana_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1042, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(48, 38);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "_";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Minimizar_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -326,6 +350,8 @@
         private System.Windows.Forms.Button btn_salida;
         private System.Windows.Forms.Timer menuTrantion;
         private System.Windows.Forms.Timer sidebordTransition;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

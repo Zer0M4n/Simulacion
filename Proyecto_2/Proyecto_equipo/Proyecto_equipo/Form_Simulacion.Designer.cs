@@ -1,4 +1,4 @@
-﻿namespace Proyecto_equipo
+﻿namespace proyecto_inv
 {
     partial class Form_Simulacion
     {
@@ -49,7 +49,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(440, 346);
+            this.label3.Location = new System.Drawing.Point(475, 366);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 16);
@@ -61,7 +61,7 @@
             this.TablaData2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TablaData2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.TablaData2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaData2.Location = new System.Drawing.Point(552, 43);
+            this.TablaData2.Location = new System.Drawing.Point(552, 44);
             this.TablaData2.Margin = new System.Windows.Forms.Padding(4);
             this.TablaData2.Name = "TablaData2";
             this.TablaData2.RowHeadersWidth = 51;
@@ -73,7 +73,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(567, 2);
+            this.label4.Location = new System.Drawing.Point(567, 3);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(254, 20);
@@ -84,10 +84,10 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(447, 376);
+            this.pictureBox2.Location = new System.Drawing.Point(478, 391);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(374, 168);
+            this.pictureBox2.Size = new System.Drawing.Size(359, 154);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -96,10 +96,10 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 376);
+            this.pictureBox1.Location = new System.Drawing.Point(108, 391);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(388, 168);
+            this.pictureBox1.Size = new System.Drawing.Size(359, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
@@ -108,7 +108,7 @@
             // 
             this.Calcular.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Calcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Calcular.Location = new System.Drawing.Point(373, 191);
+            this.Calcular.Location = new System.Drawing.Point(373, 192);
             this.Calcular.Margin = new System.Windows.Forms.Padding(4);
             this.Calcular.Name = "Calcular";
             this.Calcular.Size = new System.Drawing.Size(139, 53);
@@ -122,7 +122,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(105, 344);
+            this.label2.Location = new System.Drawing.Point(105, 369);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 18);
@@ -134,7 +134,7 @@
             this.TablaData.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TablaData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.TablaData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaData.Location = new System.Drawing.Point(108, 43);
+            this.TablaData.Location = new System.Drawing.Point(108, 44);
             this.TablaData.Margin = new System.Windows.Forms.Padding(4);
             this.TablaData.Name = "TablaData";
             this.TablaData.RowHeadersWidth = 51;
@@ -146,7 +146,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(104, 2);
+            this.label1.Location = new System.Drawing.Point(104, 3);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(250, 20);
@@ -157,7 +157,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(941, 546);
+            this.ClientSize = new System.Drawing.Size(941, 549);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TablaData2);
             this.Controls.Add(this.label4);
@@ -167,9 +167,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TablaData);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_Simulacion";
             this.Text = "Form_Simulacion";
+            this.Load += new System.EventHandler(this.Form_Simulacion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TablaData2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

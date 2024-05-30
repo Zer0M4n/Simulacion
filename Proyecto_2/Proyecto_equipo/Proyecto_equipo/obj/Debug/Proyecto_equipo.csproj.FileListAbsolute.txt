@@ -2,7 +2,6 @@ C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\P
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\proyecto_inv.Form_Generador_Num.resources
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\proyecto_inv.Form_Prueba_Frecuencia.resources
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\proyecto_inv.Form_Prueba_Promedio.resources
-C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\Proyecto_equipo.Form_Simulacion.resources
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\proyecto_inv.Menu.resources
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\Proyecto_equipo.Properties.Resources.resources
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\Proyecto_equipo.csproj.GenerateResource.cache
@@ -21,3 +20,4 @@ C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\P
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\Proyecto_equipo.pdb
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\bin\Debug\ResultadoSangre_LibreriaControl.dll
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\bin\Debug\ResultadoSangre_LibreriaControl.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto_2\Proyecto_equipo\Proyecto_equipo\obj\Debug\proyecto_inv.Form_Simulacion.resources
