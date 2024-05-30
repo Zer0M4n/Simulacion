@@ -30,6 +30,11 @@
         {
             this.dt_Lista_Promedio = new System.Windows.Forms.DataGridView();
             this.btn_Generador = new System.Windows.Forms.Button();
+            this.lb_texto = new System.Windows.Forms.Label();
+            this.txtBox_Xa = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dt_Lista_Promedio)).BeginInit();
             this.SuspendLayout();
             // 
@@ -38,17 +43,17 @@
             this.dt_Lista_Promedio.AllowUserToAddRows = false;
             this.dt_Lista_Promedio.AllowUserToDeleteRows = false;
             this.dt_Lista_Promedio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dt_Lista_Promedio.Location = new System.Drawing.Point(445, 38);
+            this.dt_Lista_Promedio.Location = new System.Drawing.Point(462, 83);
             this.dt_Lista_Promedio.Name = "dt_Lista_Promedio";
             this.dt_Lista_Promedio.ReadOnly = true;
             this.dt_Lista_Promedio.RowHeadersWidth = 51;
             this.dt_Lista_Promedio.RowTemplate.Height = 24;
-            this.dt_Lista_Promedio.Size = new System.Drawing.Size(240, 370);
+            this.dt_Lista_Promedio.Size = new System.Drawing.Size(240, 326);
             this.dt_Lista_Promedio.TabIndex = 0;
             // 
             // btn_Generador
             // 
-            this.btn_Generador.Location = new System.Drawing.Point(100, 184);
+            this.btn_Generador.Location = new System.Drawing.Point(233, 48);
             this.btn_Generador.Name = "btn_Generador";
             this.btn_Generador.Size = new System.Drawing.Size(126, 23);
             this.btn_Generador.TabIndex = 1;
@@ -56,17 +61,68 @@
             this.btn_Generador.UseVisualStyleBackColor = true;
             this.btn_Generador.Click += new System.EventHandler(this.btn_Generador_Click);
             // 
+            // lb_texto
+            // 
+            this.lb_texto.AutoSize = true;
+            this.lb_texto.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_texto.Location = new System.Drawing.Point(52, 163);
+            this.lb_texto.Name = "lb_texto";
+            this.lb_texto.Size = new System.Drawing.Size(0, 24);
+            this.lb_texto.TabIndex = 2;
+            // 
+            // txtBox_Xa
+            // 
+            this.txtBox_Xa.Location = new System.Drawing.Point(99, 48);
+            this.txtBox_Xa.Name = "txtBox_Xa";
+            this.txtBox_Xa.Size = new System.Drawing.Size(100, 22);
+            this.txtBox_Xa.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(52, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 19);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Za =";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(52, 139);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 24);
+            this.label2.TabIndex = 5;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(52, 187);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 24);
+            this.label3.TabIndex = 6;
+            // 
             // Form_Prueba_Promedio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtBox_Xa);
+            this.Controls.Add(this.lb_texto);
             this.Controls.Add(this.btn_Generador);
             this.Controls.Add(this.dt_Lista_Promedio);
             this.Name = "Form_Prueba_Promedio";
             this.Text = "Form_Prueba_Promedio";
             ((System.ComponentModel.ISupportInitialize)(this.dt_Lista_Promedio)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -74,5 +130,10 @@
 
         private System.Windows.Forms.DataGridView dt_Lista_Promedio;
         private System.Windows.Forms.Button btn_Generador;
+        private System.Windows.Forms.Label lb_texto;
+        private System.Windows.Forms.TextBox txtBox_Xa;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

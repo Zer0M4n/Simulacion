@@ -15,3 +15,7 @@ C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proy
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.Form_Generador_Num.resources
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.csproj.CopyComplete
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.Form_Prueba_Promedio.resources
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\MathNet.Numerics.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\bin\Debug\MathNet.Numerics.xml
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.Form_Prueba_Frecuencia.resources
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Proyecto 1\proyecto_inv\proyecto_inv\obj\Debug\proyecto_inv.Form_Simulacion.resources

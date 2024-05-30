@@ -181,7 +181,12 @@ namespace proyecto_inv
 
         private void btn_Prueba_Frecuencias_Click(object sender, EventArgs e)
         {
+            openChildFormInPanel(new Form_Prueba_Frecuencia());
+        }
 
+        private void btn_Simulacion_Click(object sender, EventArgs e)
+        {
+            openChildFormInPanel(new Form_Simulacion());
         }
     }
 }

@@ -19,15 +19,19 @@ namespace proyecto_inv
         
        
         //Variables
-        List<float> numeros_aleatorios = new List<float>(); 
-        List<float> lista_Promedio = new List<float>();
-        
+        private List<float> numeros_aleatorios = new List<float>(); 
+        private List<float> lista_Promedio = new List<float>();
+        private bool OPC;
+        private float Za;
+        private float Z;
+
+
         public Form_Prueba_Promedio()
         {
             
             InitializeComponent();
             configurar_datafrid();
-
+            label3.Text = "Z : Za";
             // Obtener la instancia del menú
             Menu menuForm = Application.OpenForms.OfType<Menu>().FirstOrDefault();
             if (menuForm != null)
@@ -65,23 +69,59 @@ namespace proyecto_inv
 
         private void btn_Generador_Click(object sender, EventArgs e)
         {
-            dt_Lista_Promedio.Rows.Clear();
-
-            Pruebas p = new Pruebas();
-            lista_Promedio = p.Lista_prueba(numeros_aleatorios);
-
-            // Agregar columnas al DataTable
-            dt_Lista_Promedio.Columns.Add("RN", "Rn");
-            dt_Lista_Promedio.Columns.Add("Sumatoria", "Sumatoria");
-            
-            // Llenar el DataTable con los datos de las listas
-            for (int i = 0; i < Math.Max(numeros_aleatorios.Count, lista_Promedio.Count); i++)
+            try
             {
-                float valorRN = i < numeros_aleatorios.Count ? numeros_aleatorios[i] : 0;
-                float valorSumatoria = i < lista_Promedio.Count ? lista_Promedio[i] : 0;
-                dt_Lista_Promedio.Rows.Add(valorRN, valorSumatoria);
+
+                dt_Lista_Promedio.Rows.Clear();
+                dt_Lista_Promedio.Columns.Clear();
+
+                Za = (float)Convert.ToDecimal(txtBox_Xa.Text);
+
+                Pruebas p = new Pruebas();
+                lista_Promedio = p.Lista_prueba(numeros_aleatorios);
+
+                // Agregar columnas al DataTable
+                dt_Lista_Promedio.Columns.Add("RN", "Rn");
+                dt_Lista_Promedio.Columns.Add("Sumatoria", "Sumatoria");
+
+                // Llenar el DataTable con los datos de las listas
+                for (int i = 0; i < Math.Max(numeros_aleatorios.Count, lista_Promedio.Count); i++)
+                {
+                    float valorRN = i < numeros_aleatorios.Count ? numeros_aleatorios[i] : 0;
+                    float valorSumatoria = i < lista_Promedio.Count ? lista_Promedio[i] : 0;
+                    dt_Lista_Promedio.Rows.Add(valorRN, valorSumatoria);
+                }
+
+                OPC = p.Comprobar_Distribucion(lista_Promedio, Za);
+                Z = p.Valor_Distribucion_Normal(numeros_aleatorios);
+
+                label2.Text = $" Za = {Za} , Z = {Z} ";
+
+                if (OPC == true)
+                {
+
+                    lb_texto.Text = "Numeros Uniformente Distribuidos";
+                    label3.Text = $"{Z} < {Za}";
+                }
+                else if (OPC == false)
+                {
+
+                    lb_texto.Text = "Numeros no Distribuidos  Uniformente ";
+                    label3.Text = $"{Z} > {Za}";
+                }
+
             }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Surgio un error");
+            }
+
            
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

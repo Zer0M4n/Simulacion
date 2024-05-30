@@ -58,11 +58,23 @@
     <Compile Include="Form_Generador_Num.Designer.cs">
       <DependentUpon>Form_Generador_Num.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Prueba_Frecuencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Prueba_Frecuencia.Designer.cs">
+      <DependentUpon>Form_Prueba_Frecuencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Prueba_Promedio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Prueba_Promedio.Designer.cs">
       <DependentUpon>Form_Prueba_Promedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Simulacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Simulacion.Designer.cs">
+      <DependentUpon>Form_Simulacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -75,8 +87,14 @@
     <EmbeddedResource Include="Form_Generador_Num.resx">
       <DependentUpon>Form_Generador_Num.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Prueba_Frecuencia.resx">
+      <DependentUpon>Form_Prueba_Frecuencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Prueba_Promedio.resx">
       <DependentUpon>Form_Prueba_Promedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Simulacion.resx">
+      <DependentUpon>Form_Simulacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

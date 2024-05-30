@@ -4,3 +4,8 @@ C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadistica
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\obj\Debug\Pruebas_Estadisticas.csproj.CoreCompileInputs.cache
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\obj\Debug\Pruebas_Estadisticas.dll
 C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\obj\Debug\Pruebas_Estadisticas.pdb
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\bin\Debug\MathNet.Numerics.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\bin\Debug\System.ValueTuple.dll
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\bin\Debug\MathNet.Numerics.xml
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\bin\Debug\System.ValueTuple.xml
+C:\Users\cesar\OneDrive\Documents\GitHub\Simulacion\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\obj\Debug\Pruebas_Estadisticas.csproj.CopyComplete

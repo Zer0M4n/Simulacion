@@ -33,6 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Numeros_Pseudo">
+      <HintPath>..\..\..\Libreria\Numeros_Pseudo\Numeros_Pseudo\bin\Debug\Numeros_Pseudo.dll</HintPath>
+    </Reference>
+    <Reference Include="Pruebas_Estadisticas">
+      <HintPath>..\..\..\Libreria\Pruebas_Estadisticas\Pruebas_Estadisticas\bin\Debug\Pruebas_Estadisticas.dll</HintPath>
+    </Reference>
+    <Reference Include="ResultadoSangre_LibreriaControl">
+      <HintPath>..\..\..\Libreria\ResultadoSangre_LibreriaControl\bin\Debug\ResultadoSangre_LibreriaControl.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,14 +55,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form_Generador_Num.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form_Generador_Num.Designer.cs">
+      <DependentUpon>Form_Generador_Num.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Prueba_Frecuencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Prueba_Frecuencia.Designer.cs">
+      <DependentUpon>Form_Prueba_Frecuencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Prueba_Promedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Prueba_Promedio.Designer.cs">
+      <DependentUpon>Form_Prueba_Promedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Simulacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Simulacion.Designer.cs">
+      <DependentUpon>Form_Simulacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Generador_Num.resx">
+      <DependentUpon>Form_Generador_Num.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Prueba_Frecuencia.resx">
+      <DependentUpon>Form_Prueba_Frecuencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Prueba_Promedio.resx">
+      <DependentUpon>Form_Prueba_Promedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Simulacion.resx">
+      <DependentUpon>Form_Simulacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +110,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +124,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cerrar-ventana-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-minimizar-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-minimizar-241.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
